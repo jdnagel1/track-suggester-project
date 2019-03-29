@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  // $('#').modal({backdrop: 'static', keyboard: false});
-  $("#user-data").submit(function(event){
+  $("#coding-interest").submit(function(event){
     event.preventDefault();
     var cssvar = $('#form-css').is(":checked");
     var csharpvar = $("#form-csharp").is(":checked");
@@ -10,12 +9,13 @@ $(document).ready(function(){
 if (cssvar){
   $("#css").fadeIn();
 } else if (csharpvar === false) {
-  $("#csharp").fadeIn();
-} else if (javavar === false) {
- $("#java1pic").show();
+  $("#java").fadeIn();
+} else if (javavar === "java1") {
+  $("#csharp").show();
 } else {
- $("#java2pic").fadeIn();
+  $("java").fadeIn();
 }
+
 
   });
 });

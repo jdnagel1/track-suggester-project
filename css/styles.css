@@ -1,3 +1,26 @@
 .tracks {
   display: none;
 }
+
+.radio-inline {
+  margin-bottom: 20px;
+}
+
+.form-check {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
