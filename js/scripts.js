@@ -11,7 +11,7 @@ if (cssvar){
   $("#css").fadeIn();
 } else if (csharpvar === false) {
   $("#csharp").fadeIn();
-} else if (cssvar === false) {
+} else if (javavar === "java1") {
  $("#java1pic").show();
 } else {
  $("#java2pic").fadeIn();
