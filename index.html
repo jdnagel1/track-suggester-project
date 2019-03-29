@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Track Suggester Project</title>
+    <title>Track Suggester</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -13,7 +13,45 @@
   </head>
   <body>
     <div class="container">
-      <h1>Track Suggester</h1>
+
+      <div class="row justify-content-md-center">
+        <form id="user-data">
+          <div class="col-md-6">
+            <h1>Which Programming Language Should You Pursue?</h1>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="form-css">
+              <label class="form-check-label" for="exampleCheck1">Do you enjoy making things look and work well, obsessing over layouts, navigation, colors, and design?</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="form-csharp">
+              <label class="form-check-label" for="exampleCheck1">Do you you like the idea of working for a larger company on business software?</label>
+            </div>
+            <div class="form-group" id="form-java">
+              <label class="radio-inline"><input type="radio" name="optradio" value="java1" checked> Interested in becoming an Android developer?</label>
+              <label class="radio-inline"><input type="radio" name="optradio" value="java2"> Interested in high-performance applications?</label>
+              <label class="radio-inline"><input type="radio" name="optradio" value="java3"> Interested in working for an enterprise-level company?</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <h1 class="tracks">Track Suggestion</h1>
+
+      <div id="css" class="tracks">
+        <img src="img/css.jpg" alt="">
+      </div>
+      <div id="csharp" class="tracks">
+        <img src="img/csharp.jpg" alt="">
+      </div>
+      <div id="java1" class="tracks">
+        <img src="img/java1.jpg" alt="">
+      </div>
+      <div id="java2" class="tracks">
+        <img src="img/java2.jpeg" alt="">
+      </div>
+
     </div>
   </body>
 </html>
