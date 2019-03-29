@@ -6,7 +6,7 @@
 
 ## Description
 
-This page provides a series of questions to help prospective developers choose which programming languages to pursue._
+This page provides a series of questions to help prospective developers choose which programming languages to pursue.
 
 ## Setup/Installation Requirements
 
